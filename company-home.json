@@ -1,0 +1,67 @@
+    { 
+      "home" : 
+      { 
+        "metadata" : 
+        [
+            {
+                "name" : "title"
+                ,"value" : "BigCo Company Records"
+              }
+            ,
+            {
+                "name" : "author"
+                ,"value" : "Mike Amundsen"
+              }
+            ,
+            {
+                "name" : "release"
+                ,"value" : "1.0.0"
+              }
+          ],
+          "links" : 
+          [
+              {
+                  "id" : "self"
+                  ,"name" : "self"
+                  ,"href" : "http://company-atk.herokuapp.com/"
+                  ,"rel" : "self colllection company"
+                  ,"tags" : "collection company self home list item"
+                  ,"title" : "Self"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "home"
+                  ,"name" : "home"
+                  ,"href" : "http://company-atk.herokuapp.com/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "Home"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "list"
+                  ,"name" : "list"
+                  ,"href" : "http://company-atk.herokuapp.com/list/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "List"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+          ],
+          "items" : 
+          [
+          ]
+        }
+     }
+  
